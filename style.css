@@ -1,0 +1,129 @@
+/* setting background image */
+body {
+    background-image: url('../src/vietnambay.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+  }
+
+/* setting content div to be vertical flexbox */
+#content {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: center;
+    
+}
+
+
+header {
+    width: 900px;
+}
+
+.title {
+    font-family: 'Playfair Display SC', serif;
+    background-color: rgba(0,0,0,0.80);
+    color: white;
+}
+
+.nav {
+    background-color: rgba(0,0,0,0.80);
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+li a {
+    display:block;
+    color:white;
+    text-align:center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(42, 42, 42);
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: right;
+}
+
+footer div {
+    display:flex;
+    justify-content: flex-end;
+}
+
+footer p {
+    margin: 0px 0px 0px 20px;
+}
+/*body stuff*/
+
+.pageContent {
+    width: 900px;
+    background-color:rgba(0,0,0,0.80);
+    padding: 20px 20px 20px 20px;
+    
+}
+
+.pageContent h2,h3,p,.menu,ul {
+    color: white;
+}
+
+.pageContent h1,h2,h3 {
+    font-family: 'Playfair Display SC', serif !important;
+    color: white;
+}
+
+
+/* about page */
+.menu {
+    width: 100%;
+}
+
+.foodItem {
+    width: 80%;
+    text-align: left;
+}
+
+.price {
+    width: 20%;
+}
+
+.mySlides {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+div, header, nav, img, iframe {
+    border-radius: 10px;
+}
+
+header h1 {
+    border-radius: 10px;
+}
+
+/* table rows margin*/
+/* .menu tr:not(:first-child):nth-child(2n) {
+    
+    color:red;
+} */
+
+
+tr:nth-child(2n):nth-last-child(n+6) td {
+    padding: 50px 0px 0px 0px;
+}
+
+tr:nth-child(2) td{
+    padding: 0px !important;
+}
