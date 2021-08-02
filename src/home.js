@@ -56,12 +56,10 @@ function createHome() {
 
     textDiv.append(introHeader,what,whatA,offer,offerA);
 
-    console.log();
     homeContent.className = "pageContent";
     homeContent.appendChild(myIcon);
     homeContent.appendChild(textDiv);
     
-
     return homeContent;
 }
 
