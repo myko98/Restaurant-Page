@@ -16,7 +16,7 @@ body {
     
 }
 
-
+/* styling for home.js elements*/
 header {
     width: 900px;
 }
@@ -49,6 +49,7 @@ li a:hover {
     background-color: rgb(42, 42, 42);
 }
 
+/* makes footer sticky*/
 footer {
     position: fixed;
     left: 0;
@@ -65,8 +66,8 @@ footer div {
 footer p {
     margin: 0px 0px 0px 20px;
 }
-/*body stuff*/
 
+/*styling body.js elements */
 .pageContent {
     width: 900px;
     background-color:rgba(0,0,0,0.80);
@@ -84,7 +85,7 @@ footer p {
 }
 
 
-/* about page */
+/* styling about.js*/
 .menu {
     width: 100%;
 }
@@ -113,17 +114,13 @@ header h1 {
     border-radius: 10px;
 }
 
-/* table rows margin*/
-/* .menu tr:not(:first-child):nth-child(2n) {
-    
-    color:red;
-} */
-
-
+/*adding padding to menu*/
+/*adds padding to every td element in 2nd tr (row) and stops before the last 6 tr rows*/
 tr:nth-child(2n):nth-last-child(n+6) td {
     padding: 50px 0px 0px 0px;
 }
 
+/*skips the 2nd tr row for padding*/
 tr:nth-child(2) td{
     padding: 0px !important;
 }
