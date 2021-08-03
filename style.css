@@ -1,6 +1,6 @@
 /* setting background image */
 body {
-    background-image: url('../src/vietnambay.jpg');
+    background-image: url('./vietnambay.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
